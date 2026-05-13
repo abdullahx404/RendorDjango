@@ -25,7 +25,7 @@ GROQ_MODEL   = os.getenv('GROQ_MODEL')
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY' , 'django-insecure-xgv1&+s9)lk^)6cj)%!bw=s8-z8)+mnacomkw=@^@43k^@7r=9')
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'
